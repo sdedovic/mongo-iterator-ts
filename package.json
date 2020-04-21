@@ -1,0 +1,42 @@
+{
+  "name": "mongo-iterator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "rm -rf dist && tsc",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --passWithNoTests --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/mongodb": "^3.5.3",
+    "@types/node": "^9.6.52",
+    "@types/verror": "^1.10.3",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "ts-loader": "^4.5.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ],
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
