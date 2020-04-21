@@ -6,6 +6,11 @@ Under the hood a `MongoIterator` object gathers a single bach from Mongo before 
 
 **This library is in a work in progress. Breaking changes are inbound. YMMV.**
 
+## Dependencies
+**Tested with:**
+- Mongo 3.4.6
+- NodeJs 12.x
+
 ## Usage
 ### Basic Example
 
