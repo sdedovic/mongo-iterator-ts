@@ -1,6 +1,6 @@
 {
   "name": "mongo-iterator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -44,5 +44,16 @@
       "html"
     ]
   },
-  "keywords": ["mongodb", "cursor", "database", "data", "db", "migration", "migrate", "foreach", "tool", "utility"]
+  "keywords": [
+    "mongodb",
+    "cursor",
+    "database",
+    "data",
+    "db",
+    "migration",
+    "migrate",
+    "foreach",
+    "tool",
+    "utility"
+  ]
 }
