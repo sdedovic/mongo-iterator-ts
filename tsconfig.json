@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
-    "types": ["dist/index.d.ts"],
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
