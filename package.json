@@ -43,5 +43,6 @@
     "coverageReporters": [
       "html"
     ]
-  }
+  },
+  "keywords": ["mongodb", "cursor", "database", "data", "db", "migration", "migrate", "foreach", "tool", "utility"]
 }
