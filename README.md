@@ -1,4 +1,10 @@
 # Mongo Iterator
+![](https://github.com/sdedovic/mongo-iterator-ts/workflows/Node.js%20Package/badge.svg)
+![npm (tag)](https://img.shields.io/npm/v/mongo-iterator/latest)
+
+```bash
+npm i --save mongo-iterator
+```
 
 This library exposes a single class `MongoIterator`. The constructor takes a Mongo cursor and callback. The callback is executed with a batch of documents from the cursor. Conceptually it functions as a `forEach` loop.
 
