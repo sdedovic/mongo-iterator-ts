@@ -2,6 +2,7 @@
   "name": "mongo-iterator",
   "version": "0.0.6",
   "scripts": {
+    "prepublish": "tsc",
     "clean": "rm -rf dist",
     "build": "rm -rf dist && tsc",
     "test": "jest --passWithNoTests",

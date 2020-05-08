@@ -1,3 +1,6 @@
+.envrc
+dist/
+
 ### Node ###
 # Logs
 logs
