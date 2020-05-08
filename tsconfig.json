@@ -7,7 +7,7 @@
     "noImplicitThis": true,
     "noImplicitUseStrict": true,
     "newLine": "LF",
-    "removeComments": true,
+    "removeComments": false,
     "esModuleInterop": true,
     "noLib": false,
     "allowSyntheticDefaultImports": true,
