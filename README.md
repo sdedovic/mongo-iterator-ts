@@ -1,4 +1,6 @@
 # Mongo Iterator
+A small utility for efficiently iterating through MongoDb collections.
+
 ![](https://github.com/sdedovic/mongo-iterator-ts/workflows/Node.js%20Package/badge.svg)
 ![npm (tag)](https://img.shields.io/npm/v/mongo-iterator/latest)
 
