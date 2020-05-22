@@ -2,6 +2,17 @@
   "name": "mongo-iterator",
   "version": "0.1.3",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdedovic/mongo-iterator-ts.git"
+  },
+  "author": "Stevan Dedovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdedovic/mongo-iterator-ts/issues"
+  },
+  "homepage": "https://github.com/sdedovic/mongo-iterator-ts#readme",
+  "description": "A small utility for efficiently iterating through MongoDb collections",
   "files": [
     "dist"
   ],
